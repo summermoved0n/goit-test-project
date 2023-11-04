@@ -4,13 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 10</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <select class="breed-select"></select>
-    <p class="loader">Loading data, please wait...</p>
-    <p class="error">Oops! Something went wrong! Try reloading the page!</p>
-    <div class="cat-info"></div>
+    <div class="top-div">
+      <h1 class="main-title">Pokemon finder</h1>
+      <form class="form">
+        <div class="form-block">
+          <input
+            class="top-input"
+            type="text"
+            name="query"
+            placeholder="Fill in number of pokemon!"
+          />
+        </div>
+        <button class="top-button" type="submit">Find</button>
+      </form>
+    </div>
 
+    <div class="down-div">
+      <!-- <div class="wrap-div">
+        <div class="wrap-block">
+          <img src="./images/phone-pc.jpg" alt="" width="180">
+          <h2>Name of Pokemon: <span class="green">Mobile phone</span></h2>
+        </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias harum reiciendis voluptates praesentium quibusdam quod quaerat omnis impedit! Odio dolore quasi aut mollitia adipisci quia distinctio maxime temporibus ipsam sunt.</p>
+      </div> -->
+    </div>
+
+    <div class="load-div">
+      <button class="down-btn" type="submit">Load more</button>
+    </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
